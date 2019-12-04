@@ -62,9 +62,7 @@ except:
         
 
 msg = MIMEMultipart()
-#msg['Subject'] = "Subject" 
-#msg['From'] = "a@gmail.com"
-#msg['To'] = ', ' + "b@gmail.com"
+msg['Subject'] = "We got a great offer for you, " + _username 
 
 msg.attach(MIMEText(_msg))
 

